@@ -2,6 +2,6 @@ version: "2"
 
 services:
   ubu:
-    image: walkero/amicrossdev:4.4.3
+    image: walkero/amicrossdev:4.4.3    # Allowed: latest, 4.4.3, 4.2.4
     volumes:
       - ./projects:/home/projects
